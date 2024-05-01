@@ -37,6 +37,10 @@ app.get("/", function (req, res){
 //clear your cookie
 
 app.get("/clearCookies", function (req, res) {
+  res.clearCookie("prevpage",{path:"/"})
+  res.status(200).json({
+    message:"i have cleared the cookie"
+  })
     
 });
 
