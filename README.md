@@ -9,4 +9,5 @@
 * User preferences are solved.
 
 **Authentication**: is the process of verifying whether the claimed identity is valid and accurate. It ensures that the user's identity is genuine before granting access to protected resources or functionalities.
+
 **Authorization** : is the process of determining what actions or resources a verified and authenticated user is permitted to access within a system or application.
